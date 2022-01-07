@@ -1,15 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-	<PropertyGroup>
-		<OutputType>Exe</OutputType>
-		<TargetFramework>net6.0</TargetFramework>
-		<ImplicitUsings>enable</ImplicitUsings>
-		<Nullable>enable</Nullable>
-	</PropertyGroup>
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
 
-	<ItemGroup>
-		<Using Include="System.Linq.Enumerable" Static="true" />
-		<Using Include="System.Console" Static="true" />
-	</ItemGroup>
+  <ItemGroup>
+    <Using Include="System.Linq.Enumerable" Static="true" />
+    <Using Include="System.Console" Static="true" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="D:\github\Dessyreqt\minifizzbuzz\ConsoleApp1\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\github\Dessyreqt\minifizzbuzz\ConsoleApp1\.editorconfig" />
+  </ItemGroup>
 
 </Project>
